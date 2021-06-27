@@ -35,7 +35,7 @@ class ProgressBar:
             sys.stdout.flush()
     def end(self):
         self.update(self.max)
-        print("\n")
+        print("")
     def start(self):
         try :
             self.update(0)
