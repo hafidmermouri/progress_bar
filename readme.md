@@ -9,8 +9,7 @@ Clone this repo to your project
 ## Use the API
 ````
 from progress_bar.progressbar import ProgressBar
-data = [1,2,3,4,5,6,7,8,9,10]
-pb = ProgressBar(len(data))
+pb = ProgressBar(len(range(0,10))
 for i,x in enumerate(data) :
     pb.update(i)
 pb.end()
